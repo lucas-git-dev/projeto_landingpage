@@ -76,6 +76,25 @@ body {
 	border-top: 3px solid var(--font__highlight__color);
 }
 
+.dropdown__menu {
+	position: absolute;
+	display: none;
+}
+
+.dropdown__menu a {
+	display: block;
+	padding: 5px 0;
+}
+
+.navbar__dropdown:hover .dropdown__menu {
+	display: block;
+	margin-top: 1px;
+}
+
+.navbar__dropdown:hover #link__services {
+	color: var(--font__highlight__color);
+}
+
 .header__login {
 	flex: 10%;
 	display: flex;
