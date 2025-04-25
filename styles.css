@@ -131,6 +131,8 @@ body {
 .main__button:hover {
 	transform: scale(1.3);
 	background-color: crimson;
+	color: white;
+	transition: 300ms;
 }
 
 .main__image {
